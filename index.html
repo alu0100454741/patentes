@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyecto TIO - Buscador de Patentes">
+    <meta name="author" content="Equipo DDJE">
+    <title>Buscador de Patentes</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/forms.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Fav icons -->
+    <link rel="shortcut icon" href="ico/faviconPatent.ico">
+    <link rel="icon-precomposed" sizes="144x144" href="ico/patent_icon_144.png">
+    <link rel="icon-precomposed" sizes="114x114" href="ico/patent_icon_114.png">
+    <link rel="icon-precomposed" sizes="72x72" href="ico/patent_icon_72.png">
+    <link rel="icon-precomposed" href="ico/patent_icon_57.png">
+  </head>
+
+  <body>
+    <!-- Menu Deslizante -->
+    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-reorder"></i></a>
+    <div id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+        <li class="sidebar-brand"><a href="">¡Bienvenido!</a></li>
+        <li><a href="#top">Buscador</a></li>
+        <li><a href="#about">Servicios</a></li>
+        <li><a href="#services">Acerca de</a></li>
+        <li><a href="#proyect">Proyecto para la asignatura</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </div>
+    <!-- /Menu Deslizante -->
+  
+    <!-- Buscador -->
+    <div id="top" class="header">
+      <div class="vert-text">
+        <br>
+        <h1>Buscador de Patentes</h1>
+        <br>
+        <br>
+        <form action="busqueda.php" method="post">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <div class="form-group">
+              <input class="form-control" type="text" name="nomb" placeholder="Introduce un término">
+            </div>
+            <input name="Buscar" type="submit" id="Buscar" value="Buscar" class="btn btn-lg btn-primary">
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- /Buscador -->
+  
+    <!-- Acerca de -->
+    <div id="about" class="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <h2>¡Usando BUSCADOR DE PATENTES puede buscar más de siete millones de documentos de patentes!</h2>
+            <p class="lead">Puedes buscar una patente que te interese introduciendo un termino cualquiera, además puedes ordenar tu búsqueda por relevancia, fecha ascendente/descendente. También puedes categorizar tu búsqueda por patente registrada o expedida.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Acerca de -->
+  
+    <!-- Servicios -->
+    <div id="services" class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>Quienes Somos</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-md-offset-2 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-user"></i>
+              <h4>Diego Williams Aguilar Montaño</h4>
+              <p></p>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-user"></i>
+              <h4>Daniel Fernandez del Castillo Salazar</h4>
+              <p></p>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-user"></i>
+              <h4>Javier Mena Mena</h4>
+              <p></p>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-user"></i>
+              <h4>Eduardo Delgado Álvarez</h4>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Servicios -->
+
+    <!-- Proyecto -->
+    <div id="proyect" >
+      <div class="callout">
+        <div class="vert-text">
+          <div class="col-md-6 col-md-offset-3 text-center2">
+            <p>Tecnologías de la Información para las Organizaciones</p>
+            <br>
+            <br>
+            <h2>Profesor: Dagoberto Castellanos Nieves</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Proyecto -->
+    
+    <!-- Footer -->
+    <footer>
+      <div id="contact" >
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+              <ul class="list-inline">
+                <li><i class="fa fa-facebook fa-3x"></i></li>
+                <li><i class="fa fa-twitter fa-3x"></i></li>
+                <li><i class="fa fa-dribbble fa-3x"></i></li>
+              </ul>
+              <div class="top-scroll">
+                <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
+              </div>
+              <hr>
+              <p>Copyright &copy; Buscador de Patentes 2013</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- Puesto al final del documento para que las páginas cargen más rápido-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
+    <script>
+        $("#menu-close").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+    </script>
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+    </script>
+    <script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+            || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
